@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Keyboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Touch Typing Practice</h1>
+    <p id="lesson1">Free Hand Practice</p>
+    <div>
+        <img src="keyboard.jpg" class="keyboard" alt="keyboard" />
+    </div>
+    <ul id="instructions">
+        <li>Choose whichever letters you want to practice with.</li>
+        <li>When it appears, click the "START EXERCISE" button.</li>
+        <li>Try to type the text that appears in the box without looking at the keyboard.</li>
+        <li>When you press the correct key, the character on the screen will become GREEN.</li>
+        <li>If you press the wrong key the character will turn RED. If you enter BACKSPACE you can undo the error
+            and then retype the correct character.</li>
+        <li>The exercise will finish when every letter is typed correctly.</li>
+        <li>When you finish the exercise, the completion time and number of errors will appear on the screen.</li>
+        <li>Repeat the exercise until you can finish it under 60 seconds without mistakes.</li>
+        <li>To repeat the exercise refresh the page or press the "Reload Page" button that will appear under the green
+            box.</li>
+        <li>Letters are CASE SENSITIVE.</li>
+        <li>Review proper Touch Typing positions before starting.</li>
+    </ul>
+    <div>
+        <br />
+        <p id="please">Please Type In Whichever Letters You Want To Practice With (NO SPACES) [Case Sensitive] </p>
+        <input id="myLetters" value="">
+        <button id="enterLetters" onclick="chooseLetters()">Enter</button>
+        </br>
+        <a href="typing.html"> <button id="start">START EXERCISE </button></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="heading">Touch Typing Practice</h1>
+    <p id="lesson1">Free Hand Practice</p>
+    <div>
+        <p id="end">Exercise Complete! Refresh Page To Reset OR Go Back To Change Practice Keys.</p>
+        <button id="timer">Time</button>
+        <button id="errors">Errors</button>
+        </br>
+        <button id="copyText" onclick="randomizeLetters()">Click Here To Begin</button>
+    </div>
+    <p id="genText"></p>
+    <textarea class="input_area" placeholder="start typing here..." oninput="processText()"> </textarea>
+    <script src="script.js"></script>
+</body>
+
+</html>

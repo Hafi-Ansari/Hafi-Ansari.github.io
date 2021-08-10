@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+body{
+    background-color:rgb(0, 255, 221);
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    text-align: center;
+}
+
+.heading{
+    margin-top: 0;
+    background-image: linear-gradient(rgb(1, 71, 177), rgb(0, 255, 221));
+    color:black;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#please, #end{
+    font-size: large;
+    font-weight: 900;
+}
+
+#copyText{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+
+}
+
+#genText{
+    margin: auto; 
+    width: 60%;
+    height: 165px;
+    border: 12px solid rgb(1, 71, 177);
+    padding: 10px;
+    background-color: rgb(0, 255, 221);
+    box-shadow: 10px 5px 5px black;
+    font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center; 
+    line-height: 150%;
+}
+
+.input_area{
+    margin: auto; 
+    margin-top: 2%;
+    width: 50%;
+    height: 150px;
+    font-size: 20px;
+}
+
+#lesson1{
+    font-size: 25px;
+    margin-top: -.25%;
+    font-weight: 700;
+}
+
+#instructions{
+    font-size: 20px;
+    width: 60%; 
+    background-color:rgb(209, 203, 203);
+    margin: 0 auto;
+    border: solid 4px blue;
+    margin-top: 5%;
+    box-shadow: 10px 5px 5px black;
+}
+
+.input_area{
+    display: block;
+    align-self: center;
+}
+
+#timer, #errors{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px black;
+}
+
+#start{
+    background-color: rgb(1, 71, 177); 
+    width: 600px; 
+    height: 150px;
+    border: none;
+    color: white;
+    padding: 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 48px;
+    margin: 4px 2px;
+    margin-top: 5%;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+}
+
+.incorrectChar {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  .correctChar {
+    color: darkgreen;
+  }
